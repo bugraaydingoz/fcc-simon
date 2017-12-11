@@ -64,16 +64,6 @@ class Game {
 
     //play it all
     present() {
-        //If I call this.pattern, it comes undefined? so I am using local variables.
-        //edit: because this object is different than Game class.
-        //arrow functions resolved it.
-        // var _pattern = this.pattern;
-        // var _sounds = this.sounds;
-        // var _colorsReverse = this.colorsReverse;
-        // var _length = this.pattern.length;
-        // var _time = this.time;
-        // var _stopPresenting = this.stopPresenting;
-        // var _state = this.state;
         var timer;
         var i = 0;
         timer = setInterval(() => {

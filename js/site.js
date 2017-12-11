@@ -1,8 +1,5 @@
 var game = new Game();
 
-// $(document).ready(function(){
-//     game.sounds[0].start()
-// })
 
 $(".green").on("mousedown", function () {
     if (game.state === "play") {
